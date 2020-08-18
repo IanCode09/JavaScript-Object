@@ -1,4 +1,4 @@
-# Aynchronous-Function
+# Aynchronous-Object
 JavaScript Course
 
 Creating Java Script Object
