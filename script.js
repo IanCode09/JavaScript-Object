@@ -34,3 +34,27 @@ console.log(sadukLaptop);
 
 ianLaptop.color = 'Black'
 console.log(ianLaptop.color);
+
+
+
+// JavaScript Object Method
+const profil = {
+    firstName: 'Ian',
+    lastName: 'Lombu',
+    npm: 065115344,
+    address: 'Bogor',
+    fullName: function() {
+        return this.firstName + " " + this.lastName
+    }
+}
+console.log(profil.fullName())
+
+
+const perhitungan = {
+    angka1: 10,
+    angka2: 40,
+    hasil: function() {
+        return this.angka1 + this.angka2
+    }
+}
+console.log(perhitungan.hasil());
